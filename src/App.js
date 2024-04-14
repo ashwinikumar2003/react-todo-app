@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import TaskInput from './components/TaskInput';
+import TaskList from './components/TaskList';
+import { Container, Typography, Grid } from '@mui/material';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Typography variant="h3" gutterBottom>
+        React To-Do App
+      </Typography>
+      <TaskInput />
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={6}>
+          <TaskList />
+        </Grid>
+        <Grid item xs={12} sm={6}>
+        </Grid>
+      </Grid>
+    </Container>
   );
 }
 

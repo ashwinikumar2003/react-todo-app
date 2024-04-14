@@ -1,0 +1,11 @@
+.long-task-container {
+    word-wrap: break-word; /* Ensure text wrapping */
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    .long-task-container {
+      font-size: 14px; /* Reduce font size */
+    }
+  }
+  
