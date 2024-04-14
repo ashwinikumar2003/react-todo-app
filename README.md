@@ -14,7 +14,7 @@ To install this project, follow these steps:
 
 1. Clone the repository to your local machine:
 
-https://github.com/ashwinikumar2003/React-To-Do-App.git
+(https://github.com/ashwinikumar2003/react-todo-app.git)
 
 
 2. Navigate to the project directory:
